@@ -1,0 +1,45 @@
+// home.less
+// CSS for the homepage.
+// -----------------------------------------------------------------
+
+
+// Include LESS variables & mixins
+@import "../global/lib/mixins.less";
+@import "../global/lib/variables.less";
+
+
+// NEWS 
+// ------------------------
+
+.news {
+	margin-bottom: 0 !important;
+}
+
+.news div:last-child {
+	border-bottom: 0;
+	.box-shadow(none);
+}
+
+.post {
+	h3 {
+		text-transform: uppercase;
+		font-size: 20px;
+		-webkit-font-smoothing: antialiased;
+		line-height: 24px;
+		margin-bottom: 0;
+	}
+	img {
+		margin-bottom: 20px;
+		.box-shadow(0 1px 5px rgba(0,0,0,0.15);
+	}
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	.box-shadow(0 1px 0 rgba(255,255,255,0.075);
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	.meta {
+		font-family: 'Helvetica Neue';
+		font-size: 12px;
+		margin-bottom: 15px;
+	}
+	.clearfix();
+}

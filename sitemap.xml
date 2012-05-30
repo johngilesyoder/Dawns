@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://localhost:8888/dawns/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.3.2" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.7" -->
+<!-- generated-on="May 22, 2012 9:59 am" -->
+<!-- Debug: Total comment count: 0 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://localhost:8888/dawns/</loc>
+		<lastmod>2012-05-22T00:07:43+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+	<url>
+		<loc>http://localhost:8888/dawns/contact/</loc>
+		<lastmod>2012-05-22T09:58:05+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://localhost:8888/dawns/gallery/</loc>
+		<lastmod>2012-05-22T09:52:25+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://localhost:8888/dawns/store/</loc>
+		<lastmod>2012-05-22T09:51:10+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://localhost:8888/dawns/press/</loc>
+		<lastmod>2012-05-22T09:48:07+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 75: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/dawns/dawns-feature-in-owl-magazine-free-download/</loc>
+		<lastmod>2012-05-22T09:45:42+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 71: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/dawns/evidence-answers-preview-featured-on-ellenwood/</loc>
+		<lastmod>2012-05-22T09:45:26+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 65: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/dawns/dawns-featured-on-the-cover-of-altsounds-com/</loc>
+		<lastmod>2012-05-22T09:45:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 49: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/dawns/kickstarter-help-make-the-beam-of-light-video/</loc>
+		<lastmod>2012-05-22T09:44:33+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 61: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/dawns/debut-ep-release-date-summer-solstice-june-20th/</loc>
+		<lastmod>2012-05-22T09:20:24+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://localhost:8888/dawns/tour/</loc>
+		<lastmod>2012-05-22T08:43:26+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://localhost:8888/dawns/about/</loc>
+		<lastmod>2012-05-22T07:41:32+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://localhost:8888/dawns/sample-page/</loc>
+		<lastmod>2012-05-19T04:34:25+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

@@ -1,0 +1,69 @@
+// footer.less
+// CSS for the global footer.
+// -----------------------------------------------------------------
+
+// FOOTER
+// --------------------------------------------------
+
+footer {
+	background-color: #16171a;
+	padding: 50px 0;
+	text-align: center;
+	.networks {
+		margin: 0 0 30px 0;
+		li {
+			display: inline-block;
+			*display: inline;
+			zoom: 1;
+			margin-right: 27px;
+			&:last-child {
+				margin-right: 0;
+			}
+			a {
+				background-color: #3c4048;
+				height: 70px;
+				width: 70px;
+				display: block;
+				-webkit-transition-duration: 250ms;
+				&:hover {
+					background-color: @white;
+				}
+			}
+		}
+	}
+	nav {
+		font-family: Calluna;
+		margin: 0 0 10px 0;
+		ul {
+			display: table;
+			table-layout: fixed;
+			zoom: 1;
+			width: 72%;
+			margin: 0 auto;
+			li {
+				display: table-cell;
+				width: 100%;
+				overflow: hidden;
+				line-height: 50px;
+				text-align: center;
+				a {
+					color: @white;
+					width: auto;
+					display: block;
+					overflow: hidden;
+					text-transform: uppercase;
+					&:hover {
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+	.legal {
+		color: #a4a5a5;
+		font-family: Calluna;
+		a {
+			color: #a4a5a5;
+		}
+	}
+}

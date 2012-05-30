@@ -1,0 +1,55 @@
+// navigation.less
+// The primary site navigation.
+// -----------------------------------------------------------------
+
+// PRIMARY NAVIGATION BAR
+// --------------------------------------------------
+
+#primary {
+	font-family: Calluna;
+	background-color: #3c4351;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	height: 50px;
+	line-height: 50px;
+	.box-shadow(0 2px 5px rgba(0,0,0,0.35);
+	position: relative;
+	z-index: @zindexFixedNavbar;
+	ul {
+		display: table;
+		table-layout: fixed;
+		margin-bottom: 0;
+		zoom: 1;
+		li {
+			display: table-cell;
+			width: 100%;
+			overflow: hidden;
+			height: 52px;
+			line-height: 50px;
+			text-align: center;
+			a {
+				color: @white;
+				width: auto;
+				display: block;
+				float: none;
+				overflow: hidden;
+				-webkit-transition-duration: 200ms;
+				&:hover {
+					text-decoration: none;
+					background-color: rgba(255,255,255,0.1);
+				}
+			}
+		}
+	}
+}
+
+.navbar-placeholder {
+	height: 50px;
+}
+
+.navbar-fixed {
+	position: fixed !important;
+	width: 100%;
+	top: 0;
+}
