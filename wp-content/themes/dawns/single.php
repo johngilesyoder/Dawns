@@ -16,7 +16,7 @@ get_header(); ?>
 <!-- ======================= -->
 <header>
 	<!-- ======  Header  ====== -->
-	<a href="/">
+	<a href="http://www.dawnsiscoming.com/home/">
 		<section class="header">
 			<h1 class="art-title">DAWNS</h1>
 		</section>

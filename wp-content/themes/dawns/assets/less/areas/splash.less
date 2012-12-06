@@ -1,0 +1,159 @@
+// splash.less
+// CSS for the EP splash.
+// -----------------------------------------------------------------
+
+// Include LESS variables & mixins
+@import "../global/lib/mixins.less";
+@import "../global/lib/variables.less";
+
+// Bootstrap UI Framework
+@import "../global/lib/bootstrap.less";
+
+// Global Header / Footer
+//@import "../global/header.less";
+@import "../global/footer.less";
+
+// Calluna (regular)
+// --------------------------------------------------
+
+@font-face {
+    font-family: 'Calluna';
+    src: url('../../../assets/fonts/Calluna/Calluna.eot');
+    src: url('../../../assets/fonts/Calluna/Calluna.eot?#iefix') format('embedded-opentype'),
+         url('../../../assets/fonts/Calluna/Calluna.woff') format('woff'),
+         url('../../../assets/fonts/Calluna/Calluna.ttf') format('truetype'),
+         url('../../../assets/fonts/Calluna/Calluna.svg#Calluna') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+	background: url('../../../assets/img/page/page-bg.jpg');
+}
+
+body {
+	background: url('../../../assets/img/splash/header-bg.jpg') no-repeat 50% 0 !important;
+}
+
+// HEADER 
+// ------------------------
+
+header {
+	margin-bottom: 80px;
+	.stores {
+		margin-top: 10px;
+		a {
+			.ie7-inline-block();	
+			margin-right: 17px;
+		}
+	}
+	.pull-right {
+		font-size: 18px;
+		margin-top: 10px;
+		color: @white;
+		span {
+			font-family: Calluna;
+		}
+	}
+	.logo {
+		text-indent: -9999px;
+		display: block;
+		width: 800px;
+		height: 180px;
+		background: url('../../../assets/img/splash/holiday-splash.png') no-repeat;
+		margin: 0px auto 0;
+	}
+}
+
+
+// PACKAGES 
+// ------------------------
+
+.package {
+	.border-radius(5px);
+	background-color: rgba(10,14,18,0.35);
+	text-align: center;
+	margin-bottom: 30px;
+	&.span6 {
+		width: 400px !important;
+		padding: 30px;
+	}
+	&.span4{
+		width: 260px !important;
+		padding: 30px 20px;
+	}
+	img {
+		margin-bottom: 30px;
+	}
+	h2 {
+		font-size: 28px;
+		font-family: Garamond, serif;
+		// font-weight: 600;
+		line-height: 28px;
+		color: @linkColor;
+		margin-bottom: 5px;
+		-webkit-font-smoothing: antialiased;
+	}
+	h3 {
+		font-size: 14px;
+		line-height: 14px;
+		margin-bottom: 25px;
+		font-style: italic;
+		font-weight: normal;
+		color: #f0eceb;
+		letter-spacing: 0.075em;
+	}
+	p {
+		margin-bottom: 30px;
+	}
+	.price {
+		font-size: 24px;
+		font-family: Georgia, serif;
+		font-style: italic;
+		margin-right: 20px;
+	}
+	.order-btn {
+		background-color: #f5a59c;
+		.border-radius(4px);
+		font-family: @serifFontFamily;
+		color: #21242a;
+		text-transform: uppercase;
+		padding: 10px 12px;
+		display: inline-block;
+		*display: inline;
+		zoom: 1;
+
+	}
+}
+
+.ie8 .package {
+	background-color: #2b2f36;
+}
+.package2 p, .package5 p, .package4 p {
+	margin-bottom: 54px;
+}
+.package3 h2 {
+	margin-bottom: 44px;
+}
+
+.notes {
+	text-align: center;
+	p {
+		font-size: 18px;
+	}
+}
+
+.continue {
+	.border-radius(5px);
+	background-color: rgba(10,14,18,0.35);
+	padding: 20px;
+	margin-top: 50px !important;
+	display: inline-block;
+	font-size: 36px;
+	margin-bottom: 100px;
+}
+
+.ie8 .continue {
+	background-color: #2b2f36;
+}

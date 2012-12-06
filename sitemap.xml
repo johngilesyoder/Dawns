@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://localhost:8888/dawns/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.3.2" -->
 <!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.7" -->
-<!-- generated-on="May 22, 2012 9:59 am" -->
+<!-- generated-on="June 5, 2012 2:03 am" -->
 <!-- Debug: Total comment count: 0 -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
 		<loc>http://localhost:8888/dawns/</loc>
@@ -9,6 +9,12 @@
 		<priority>1.0</priority>
 	</url>
 <!-- Debug: Start Postings -->
+	<url>
+		<loc>http://localhost:8888/dawns/the-debut-ep-available-for-pre-order-now/</loc>
+		<lastmod>2012-06-05T02:02:41+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
 	<url>
 		<loc>http://localhost:8888/dawns/contact/</loc>
 		<lastmod>2012-05-22T09:58:05+00:00</lastmod>
@@ -77,12 +83,6 @@
 	<url>
 		<loc>http://localhost:8888/dawns/about/</loc>
 		<lastmod>2012-05-22T07:41:32+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://localhost:8888/dawns/sample-page/</loc>
-		<lastmod>2012-05-19T04:34:25+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>

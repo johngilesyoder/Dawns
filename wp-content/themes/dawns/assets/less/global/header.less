@@ -5,13 +5,22 @@
 // HERO
 // --------------------------------------------------
 
-.home header {
-	background: url(assets/img/header/hero-noise-bg.jpg) repeat-x;
+.stores {
+		margin-top: 20px;
+		margin-left: 20px;
+		a {
+			.ie7-inline-block();	
+			margin-right: 17px;
+		}
+	}
+
+.page-id-14 header {
+	background: url('assets/img/header/hero-noise-bg.jpg') repeat-x;
 	height: 900px;
 	margin-top: -200px;
 	.hero {
 		height: 900px;
-		background: url(assets/img/header/hero-bg.jpg) no-repeat top center;
+		background: url('assets/img/header/hero-bg.jpg') no-repeat top center;
 		background-attachment: fixed;
 		overflow: hidden;
 		.box-shadow(inset 0 -3px 3px rgba(0,0,0,.2));
@@ -71,14 +80,14 @@
 }
 
 .page-template-default header, .single-post header, .category header {
-	background: url(assets/img/header/hero-noise-bg.jpg) repeat-x;
+	background: url('assets/img/header/hero-noise-bg.jpg') repeat-x;
 	height: 300px;
 	a:hover {
 		text-decoration: none;
 	}
 	.header {
 		height: 300px;
-		background: url(assets/img/page/page-header.jpg) no-repeat top center;
+		background: url('assets/img/page/page-header.jpg') no-repeat top center;
 		h1 {
 			font-family: Requiem;
 			color: #e5e2e1;
@@ -95,6 +104,5 @@
 		}
 	}
 }
-
 
 @import "navigation.less";
